@@ -1,0 +1,70 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #34495e;
+  color: #ecf0f1;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+}
+
+.textbox {
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 5px;
+  background: #3498db;
+  border: 4px solid #2980b9;
+  height: 25px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.textbox::-webkit-input-placeholder {
+  color: white;
+}
+
+.textbox:-ms-input-placeholder {
+  color: white;
+}
+
+.textbox::-ms-input-placeholder {
+  color: white;
+}
+
+.textbox::placeholder {
+  color: white;
+}
+
+.zoom {
+  width: 250px;
+  margin: 10px;
+  height: 30px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  background: #3498db;
+  border: 4px solid #2980b9;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+  background: #2980b9;
+}
+
+.text {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=Form.css.map */
